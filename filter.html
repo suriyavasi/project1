@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <link href="filter.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="main-div d-flex justify-content-between align-items-center">
+           <div class="logo"><h1>sk!</h1></div>
+           <div class=" mx-5 m-2">
+            <button type="button" class="btn btn-outline-light" >login</button>
+            <button type="button"class="btn btn-outline-light" >create account</button></div>      
+    </div>
+
+
+    <div class="second">
+           <h2 class="breakfast">Breakfast Places In Mumbai</h2>
+    </div>
+
+
+    <div class="main-second">
+         <div class="left-border">
+            <div class="filters-div">
+            <h3>Filters</h3>
+            <h5>Select location</h5>
+            <input class="input" type="text" list="cities" placeholder="select location"/>
+                <datalist id="cities">
+                    <option>goa</option>
+                    <option>switzerland</option>     
+                    <option>maldives</option>  
+                    <option>thailand</option> 
+                    <option>japan</option>    
+                </datalist>
+            </br></br>
+            <h5>Cuisine</h5>
+            <input type="checkbox"><span>North Indian</span><br>
+            <input type="checkbox"><span>South Indian</span><br>
+            <input type="checkbox"><span>chinese</span><br>
+            <input type="checkbox"><span>Fast Food</span><br>
+            <input type="checkbox"><span>Steet Food</span>
+            <br><br>
+            <h5>Cost For Two</h5>
+            <input type="radio" name="1"><span>Less than ₹500</span><br>
+            <input type="radio" name="1"><span>₹500 to ₹1000</span><br>
+            <input type="radio" name="1"><span>₹1000 to ₹1500</span><br>
+            <input type="radio" name="1"><span>₹1600 to ₹2000</span><br>
+            <input type="radio" name="1"><span>₹2000+</span>
+            <br><br>
+            <h5>Sort</h5>
+            <input type="radio" name="1"><span>Price Low To High</span><br>
+            <input type="radio" name="1"><span>Price High To Low</span>
+          </div>
+       </div>
+
+       
+<div class="selection"  >
+  <select>
+    <option>filter/sort</option>
+  </select>
+</div>
+  
+
+
+       <div class="right-border">
+              <div class="cakery">
+                <div>
+                    <img src="IMG_7973.jpg" alt="imaage not found" height="150px" width="150px">
+                </div>
+                 <div class="bigchill">       
+                    <h3>The Big Chill Cakery</h3>
+                    <h4>FORT</h4>
+                    <h6>shop1,plot D,Sumrudhi Complex,Chincholi.</h6>
+                 </div>
+
+              <div class="line"></div>  
+              <div class="text1">
+                <h5>CUISINE</h5>
+                <h5>COST FOR TWO</h5>
+              </div>
+              <div class="text2">
+                <h5>Barkey</h5>
+                <h5>₹700</h5>
+              </div>              
+             </div>
+            
+             <div class="cakery">
+                <div>
+                    <img src="IMG_7973.jpg" alt="imaage not found" height="150px" width="150px">
+                </div>
+                 <div class="bigchill">       
+                    <h3>The Bake Shop</h3>
+                    <h4>FORT</h4>
+                    <h6>shop1,plot D,Sumrudhi Complex,Chincholi.</h6>
+                 </div>
+
+              <div class="line"></div>  
+              <div class="text1">
+                <h5>CUISINE</h5>
+                <h5>COST FOR TWO</h5>
+              </div>
+              <div class="text2">
+                <h5>Barkey</h5>
+                <h5>₹700</h5>
+              </div>              
+             </div>
+            
+          <div class="page">
+             <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              </div>
+       </div>
+    </div>
+
+
+
+</body>
+</html>
